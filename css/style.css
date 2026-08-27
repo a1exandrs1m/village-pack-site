@@ -436,6 +436,31 @@ section { padding: 90px 0; }
   font-size: 13px;
 }
 
+.download-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 18px auto 0;
+  padding: 8px 18px;
+  border-radius: 20px;
+  background: rgba(240, 193, 75, 0.08);
+  border: 1px solid rgba(240, 193, 75, 0.3);
+  color: var(--gold-bright);
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 13px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease 0.9s forwards;
+}
+
+.download-counter__icon {
+  font-size: 15px;
+  animation: coinFloat 3s ease-in-out infinite;
+}
+
+.download-counter__count {
+  color: #fff;
+}
+
 /* ---------- EXE EXPLAIN ---------- */
 .explain {
   display: grid;
